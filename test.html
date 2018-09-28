@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+      <title>TextBox Response</title>
+   </head>
+   <body>
+    <form method = "post" action = "http://localhost:8081/json">
+        <p>
+            <label>Name: <input name = "name" type = "text" size = "20"></label>
+        </p>
+        <p>
+            <label>HP: <input name = "hp" type = "number" size = "20"></label>
+        </p>
+        <p>
+            <label>IN: <input name = "in" type = "number" size = "20"></label>
+        </p>
+        <p>
+            <label>MV: <input name = "mv" type = "number" size = "20"></label>
+        </p>
+        <p>
+            <label>Cost: <input name = "cost" type = "number" size = "20"></label>
+        </p>
+        <p>
+            <label>Size:
+                <select name = "size">
+                        <option selected>Point</option>
+                        <option>Cube</option>
+                    </select>
+            </label>
+        </p>
+        <p>
+            <input type = "submit" value = "Submit">
+            <input type = "reset" value = "Clear">
+        </p>  
+    </form>
+   </body>
+</html> 
